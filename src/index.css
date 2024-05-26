@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn span:last-child {
+  display: none;
+}
+
+.btn:hover span:first-child {
+  display: none;
+}
+
+.btn:hover span:last-child {
+  display: inline;
+}
+
+body {
+  background-color: rgb(35, 35, 35);
+}
+
+.child_div {
+  background: linear-gradient(135deg, #00feba, #5b548a);
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 0.25rem;
+}
+
+*::-webkit-scrollbar-track {
+  background: #e3e3e3;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: 1px none #8c8c8c;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+}
